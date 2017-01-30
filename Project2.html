@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/project2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/project2.js"></script>
+</head>
+<body>
+	<div class="container">  
+		<form id="contact" method="post">
+			<fieldset>
+			  <label for="contactID">Contacts</label>
+			  <input id="contactID" placeholder="Enter the emails" type="text" tabindex="1" required autofocus>
+			</fieldset>
+			<fieldset>
+			  <label for="subjectId">Subject</label>
+			  <input id="subjectId" placeholder="You can add a subject" type="text" tabindex="2" required autofocus>			  
+			</fieldset>
+			<fieldset>
+			   <label for="messageId">Message</label>
+			   <textarea id="messageId" placeholder="leave your message here" type="text" tabindex="3" required autofocus/></textarea>
+			</fieldset>				
+			<fieldset>
+			  <label class="checkbox"><input data-val="true" data-val-required="This field is required." id="Save a copy" type="checkbox" value="true"><span class="field">Save a copy</span></label>
+			  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send Mail</button>
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>

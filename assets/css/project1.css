@@ -1,0 +1,90 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;   
+    border-radius: 5px;  
+}
+
+li {
+    display: inline;
+    Float: left;
+    text-align: center;
+    border-left: 1px solid #e7e7e7;
+    font-weight: bold;   
+}
+
+li a {
+    display: block;
+    color: #8e8071;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f8f3f0;
+    border-bottom: 2px solid green;   
+}
+
+#logo1{
+    margin-right:5px;
+    margin-left:5px;
+    max-width: 18px;
+    max-height: 25px;
+}
+
+#logo2{
+    margin-right:5px;
+    margin-left:5px;
+    max-width: 20px;
+    max-height: 25px;
+}
+
+#logo3{
+    margin-top:-5px;
+    margin-right:5px;
+    margin-left:5px;
+    max-width: 20px;
+    max-height: 25px;
+}
+
+#logo4{
+    margin-top:-3px;
+    margin-right:5px;
+    margin-left:5px;
+    max-width: 20px;
+    max-height: 25px;
+}
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#0000;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:1px 15px 0px 15px;
+  color:#0000;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
